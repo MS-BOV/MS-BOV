@@ -1,15 +1,57 @@
-body {
+* {
     font-family: Helvetica;
-    font-weight: bold;
+}
+
+body img {
+    background-image: url("https://s.studiobinder.com/wp-content/uploads/2021/01/Black-and-white-prints-TMOPhotographyStudio.jpg");
+    width: 100%;
+    height: auto;
+    z-index: -1;
 }
 
 h1 {
-    font-size: 50px;
-    color: black;
+    font-size: 70px;
+    font-weight: lighter;
+    color: white;
     text-align: center;
+    padding: 25px;
+    margin: 0px;
+}
+header {
+    width: 40%;
+    margin: 0 auto;
 }
 
-h2 {
-    font-size: 32px;
+nav {
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 2em;
+}
+  
+li {
+    float: left;
+    width: 24.8%;
+}
+
+li:last-child {
+    float: left;
+    width: 25%;
+    border-right: 0;
+}
+  
+li a {
+    display: block;
     color: white;
+    text-align: center;
+    text-decoration: none;
+}
+  
+li a:hover {
+    text-decoration: underline;
 }
