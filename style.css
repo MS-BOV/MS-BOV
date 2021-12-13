@@ -2,11 +2,13 @@
     font-family: Helvetica;
 }
 
-body img {
-    background-image: url("https://s.studiobinder.com/wp-content/uploads/2021/01/Black-and-white-prints-TMOPhotographyStudio.jpg");
+html {
+    background: url("https://s.studiobinder.com/wp-content/uploads/2021/01/Black-and-white-prints-TMOPhotographyStudio.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     width: 100%;
-    height: auto;
-    z-index: -1;
 }
 
 h1 {
