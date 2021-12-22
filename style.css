@@ -17,12 +17,7 @@ ul {
 li {
     float: left;
     width: 24.8%;
-}
-
-li:last-child {
-    float: left;
-    width: 25%;
-    border-right: 0;
+    border: 1px solid black;
 }
   
 li a {
