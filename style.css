@@ -2,19 +2,6 @@
     font-family: Helvetica;
 }
 
-h1 {
-    font-size: 70px;
-    font-weight: lighter;
-    color: white;
-    text-align: center;
-    padding: 25px;
-    margin: 0px;
-}
-header {
-    width: 40%;
-    margin: 0 auto;
-}
-
 nav {
     margin: 0 auto;
 }
